@@ -1,0 +1,9 @@
+[package]
+name = "ip_range_checker"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.32.0", features = ["full"] }
+log= "0.4.14"
+simple_logger ="4.0.0"
